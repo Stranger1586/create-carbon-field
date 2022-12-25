@@ -1,6 +1,6 @@
 {
   "name": "create-carbon-field",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple CLI tool to quickly scaffold a custom carbon field template",
   "main": "index.js",
   "bin": {
