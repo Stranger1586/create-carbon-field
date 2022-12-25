@@ -1,0 +1,24 @@
+{
+  "name": "create-carbon-field",
+  "version": "1.0.1",
+  "description": "A simple CLI tool to quickly scaffold a custom carbon field template",
+  "main": "index.js",
+  "bin": {
+    "create-carbon-field": "bin/index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "stranger",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs-extra": "^11.1.0",
+    "node-emoji": "^1.11.0",
+    "prompt": "^1.3.0",
+    "replace-in-file": "^6.3.5"
+  },
+  "devDependencies": {
+    "@types/node-emoji": "^1.8.2"
+  }
+}
