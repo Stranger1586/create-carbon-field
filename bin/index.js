@@ -151,7 +151,7 @@ async function scaffoldCarbonField(fieldName) {
 
   console.log(
     `- Creating a carbon field in ${colors.cyan(
-      `~/${PLUGIN_ROOT_DIRECTORY}`
+      `~${PLUGIN_ROOT_DIRECTORY}`
     )}...`
   );
   await move_template_to_directory(PLUGIN_ROOT_DIRECTORY);
@@ -167,9 +167,7 @@ async function scaffoldCarbonField(fieldName) {
   );
 
   console.log(`- All done! ${emoji.get("tada")}`);
-  console.log(
-    `- Now type ${colors.cyan(`cd ${PLUGIN_ROOT_DIRECTORY}`)} and get to work!`
-  );
+  console.log(`- Now type ${colors.cyan(`cd ${fieldName}`)} and get to work!`);
 }
 
 const schema = {
@@ -181,9 +179,7 @@ const schema = {
       ),
       pattern: /^[a-z\_]+$/g,
       message: colors.white(
-        `Name of the field may only contains letters and underscores, please try again. ${emoji.get(
-          "heavy_exclamation_mark"
-        )}`
+        `Name of the field may only contains letters and underscores, please try again.`
       ),
       required: true,
     },

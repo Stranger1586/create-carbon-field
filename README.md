@@ -1,9 +1,7 @@
 # Create Carbon Field
-
 A NPX application designed to facilitate the creation of a custom carbon field.
 
-## Running locally.
+## Getting started 
+Execute the following command `npx create-carbon-field` and follow the instructions.
 
-Clone the repo and run `npm i -g`.
-Than run `npx create-carbon-field`.
 
