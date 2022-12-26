@@ -167,7 +167,11 @@ async function scaffoldCarbonField(fieldName) {
   );
 
   console.log(`- All done! ${emoji.get("tada")}`);
-  console.log(`- Now type ${colors.cyan(`cd ${fieldName}`)} and get to work!`);
+  console.log(
+    `- Now execute the commend ${colors.cyan(
+      `cd ${fieldName}`
+    )} and get to work!`
+  );
 }
 
 const schema = {
